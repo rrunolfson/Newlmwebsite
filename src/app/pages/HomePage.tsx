@@ -1,6 +1,5 @@
 import { Link } from "react-router";
 import { ArrowRight, Database, Workflow, Users, Settings, GitBranch, Zap, AlertCircle, UserX, FileQuestion, XCircle } from "lucide-react";
-import logoImage from "figma:asset/074acb30e3cecd64bcc3b58823b7cb41005fc0e4.png";
 
 export function HomePage() {
   return (
@@ -69,7 +68,7 @@ export function HomePage() {
                     <div className="flex items-center justify-center gap-4">
                       <div className="bg-white rounded p-1 shadow-2xl shadow-[#217ED9]/50">
                         <img 
-                          src={logoImage} 
+                          src="/logo.png" 
                           alt="Last Mile Logo" 
                           className="w-16 h-auto"
                         />

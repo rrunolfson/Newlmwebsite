@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router";
 import { Menu, X, ChevronDown } from "lucide-react";
-import logoImage from "figma:asset/074acb30e3cecd64bcc3b58823b7cb41005fc0e4.png";
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,7 +25,7 @@ export function Navbar() {
           <Link to="/" className="flex-shrink-0 flex items-center gap-3 cursor-pointer">
             <div className="bg-white rounded p-1">
               <img 
-                src={logoImage} 
+                src="/logo.png" 
                 alt="Last Mile Logo" 
                 className="h-6 w-auto"
               />

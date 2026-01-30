@@ -1,6 +1,5 @@
 import { Link } from "react-router";
 import { Linkedin, Instagram } from "lucide-react";
-import logoImage from "figma:asset/074acb30e3cecd64bcc3b58823b7cb41005fc0e4.png";
 
 export function Footer() {
   return (
@@ -11,7 +10,7 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <div className="bg-white rounded p-1">
                 <img 
-                  src={logoImage} 
+                  src="/logo.png" 
                   alt="Last Mile Logo" 
                   className="h-6 w-auto"
                 />
