@@ -5,11 +5,14 @@ node_modules/
 
 # Testing
 /coverage
+*.lcov
+.nyc_output
 
 # Production
 /build
 /dist
 dist-ssr
+*.tgz
 
 # Environment variables
 .env
@@ -17,6 +20,7 @@ dist-ssr
 .env.development.local
 .env.test.local
 .env.production.local
+.env*.local
 
 # Logs
 npm-debug.log*
@@ -24,10 +28,14 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+*.log
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 .idea
 .DS_Store
 *.suo
@@ -35,16 +43,22 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+*.swp
+*~
 
 # OS files
 Thumbs.db
+.DS_Store
+Desktop.ini
 
 # Vite
 .vite
 *.local
+.vite-inspect
 
 # TypeScript
 *.tsbuildinfo
+next-env.d.ts
 
 # Optional npm cache directory
 .npm
@@ -55,9 +69,29 @@ Thumbs.db
 # Optional stylelint cache
 .stylelintcache
 
+# Optional REPL history
+.node_repl_history
+
 # Yarn
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+.yarn-integrity
+
+# pnpm
+.pnpm-debug.log
+.pnpm-store/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts
+*.map
+.turbo
+
+# Debugging
+.vscode/launch.json
