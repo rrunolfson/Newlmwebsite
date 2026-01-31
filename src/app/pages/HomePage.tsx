@@ -4,6 +4,7 @@ import { ArrowRight, Database, Workflow, Users, Settings, GitBranch, Zap, AlertC
 export function HomePage() {
   return (
     <div className="relative min-h-screen">
+      {/* Auto-deployment test: Updated Jan 30, 2026 @ 3:45 PM */}
       {/* Animated Background */}
       <div className="fixed inset-0 z-0 pointer-events-none">
         <div className="absolute inset-0 data-grid-bg opacity-20"></div>
