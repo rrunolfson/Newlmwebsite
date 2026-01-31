@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/lastmile/public_html/
-    - /bin/cp -R dist/* $DEPLOYPATH
+    - /bin/cp dist/index.html $DEPLOYPATH
+    - /bin/cp dist/logo.png $DEPLOYPATH
+    - /bin/cp -R dist/assets $DEPLOYPATH
