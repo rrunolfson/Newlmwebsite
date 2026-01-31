@@ -33,7 +33,7 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   ✓ All changes committed
   ✓ Pushed to GitHub
-  ✓ Repository: https://github.com/rrunolfson/Lastmilewebsite.git
+  ✓ Repository: https://github.com/rrunolfson/Newlmwebsite.git
 
 🎯 DEPLOYMENT STEPS (Quick Reference)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
