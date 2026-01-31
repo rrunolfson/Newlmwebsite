@@ -10,7 +10,7 @@ node_modules/
 
 # Production
 /build
-/dist
+# /dist - COMMENTED OUT: dist folder needed for cPanel auto-deployment
 dist-ssr
 *.tgz
 
