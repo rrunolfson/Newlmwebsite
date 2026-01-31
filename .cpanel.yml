@@ -2,7 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hh0h355mndjv/public_html
-    - /bin/mkdir -p $DEPLOYPATH/assets
-    - /bin/cp -f dist/index.html $DEPLOYPATH/
-    - /bin/cp -f dist/logo.png $DEPLOYPATH/
-    - /bin/cp -f dist/assets/* $DEPLOYPATH/assets/
+    - /bin/cp dist/index.html $DEPLOYPATH/index.html
+    - /bin/cp dist/logo.png $DEPLOYPATH/logo.png
+    - /bin/cp -r dist/assets $DEPLOYPATH/
