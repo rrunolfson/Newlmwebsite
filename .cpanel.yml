@@ -1,7 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/hh0h355mndjv/public_html/
-    - /bin/cp dist/index.html $DEPLOYPATH
-    - /bin/cp dist/logo.png $DEPLOYPATH
-    - /bin/cp -R dist/assets $DEPLOYPATH
+    - export DEPLOYPATH=/home/hh0h355mndjv/public_html
+    - /bin/mkdir -p $DEPLOYPATH/assets
+    - /bin/cp -f dist/index.html $DEPLOYPATH/
+    - /bin/cp -f dist/logo.png $DEPLOYPATH/
+    - /bin/cp -f dist/assets/* $DEPLOYPATH/assets/
